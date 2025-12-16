@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>موقعي التجريبي</title>
+<link href="https://unpkg.com/video.js/dist/video-js.css" rel="stylesheet" />
+<script src="https://unpkg.com/video.js/dist/video.js"></script>
+<script src="https://unpkg.com/videojs-contrib-hls/dist/videojs-contrib-hls.js"></script>
+</head>
+<body>
+<h1>مرحبًا بكم في موقعي</h1>
+
+<video id="my-video" class="video-js" controls preload="auto" width="640" height="360">
+  <source src="http://space.iptvpro2.com:8789/live/zhnxaUJ4/ax8W44g/22748.m3u8" type="application/x-mpegURL" />
+</video>
+
+<script>videojs('my-video');</script>
+</body>
+</html>
